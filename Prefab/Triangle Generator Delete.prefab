@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 210013460230501292}
   - component: {fileID: 4160686824214352501}
   m_Layer: 0
-  m_Name: Triangle Generator
+  m_Name: Triangle Generator Delete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

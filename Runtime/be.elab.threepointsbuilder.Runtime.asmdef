@@ -1,0 +1,17 @@
+{
+    "name": "be.elab.threepointsbuilder",
+    "rootNamespace": "",
+    "references": [
+        "be.elab.threepointsutility",
+        "be.elab.threepointstag"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

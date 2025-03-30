@@ -284,22 +284,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &917688899 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5362876145538562481, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-  m_PrefabInstance: {fileID: 8184714390832878658}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1232022708 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2265610961784342657, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-  m_PrefabInstance: {fileID: 8184714390832878658}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9590d3962980bf74fae0812cc178c7cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1489978822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -958,17 +942,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &1710581928 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5656102164482232817, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-  m_PrefabInstance: {fileID: 8184714390832878658}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01e71f7b5fca0744d861bab76587f1ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1830242419
 Mesh:
   m_ObjectHideFlags: 0
@@ -1134,47 +1107,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &455827955299220495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917688899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 514a12323ec941445bd2d05c51e608ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_spaceName: TriangleGenerator
-  m_meshFilter: {fileID: 455827955299220496}
-  m_mesh: {fileID: 0}
-  m_rgbPercent: 0.1
-  m_clearAtAwake: 1
-  m_triangles: []
-  m_onColoringCall:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1232022708}
-        m_TargetAssemblyTypeName: Eloi.ThreePoints.ThreePointsMono_MeshColoring,
-          be.elab.threepointshader
-        m_MethodName: UpdateMeshColorWithBasic
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_errorAllowedAngle: 10
-  m_errorAllowedGroundDistance: 0.1
---- !u!33 &455827955299220496 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 8417822145264505968, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-  m_PrefabInstance: {fileID: 8184714390832878658}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8184714390832878658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1183,10 +1115,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1867593767474130066, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4359804779329293710, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1227,57 +1155,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5656102164482232817, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_meshFilter
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5656102164482232817, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_allExportOnEnable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5656102164482232817, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_allExportOnDisable
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5845372363911737942, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
       propertyPath: m_Name
       value: Triangle Cursor Builder
-      objectReference: {fileID: 0}
-    - target: {fileID: 6022060536490924962, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: OnRoomMeshLoadCompleted.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6022060536490924962, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: OnRoomMeshLoadCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1710581928}
-    - target: {fileID: 6022060536490924962, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: OnRoomMeshLoadCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6022060536490924962, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: OnRoomMeshLoadCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetWithMeshFilter
-      objectReference: {fileID: 0}
-    - target: {fileID: 6022060536490924962, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: OnRoomMeshLoadCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MetaMono_ExportMeshFilter, be.elab.exportmesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 6022060536490924962, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: OnRoomMeshLoadCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 7516491958541613850, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_onTriangleReceived.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 455827955299220495}
-    - target: {fileID: 7516491958541613850, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_onTriangleReceived.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: AddTriangle
-      objectReference: {fileID: 0}
-    - target: {fileID: 7516491958541613850, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_onTriangleReceived.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Eloi.ThreePoints.TriangleGeneratorMono, be.elab.threepointsbuilder
       objectReference: {fileID: 0}
     - target: {fileID: 8160901019348114168, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
       propertyPath: m_Mesh
@@ -1287,23 +1167,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1830242419}
-    - target: {fileID: 8606053512301200759, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_allExportOnEnable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8606053512301200759, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      propertyPath: m_allExportOnDisable
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2472959575417680226, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-    m_RemovedGameObjects:
-    - {fileID: 1867593767474130066, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5362876145538562481, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 455827955299220495}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3a26d5478ab2843b36b348863b4776, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
